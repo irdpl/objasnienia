@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- saved from url=(0076) -->
+<!-- saved from url=(0067) -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       
        <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <meta name="robots" content="noindex, nofollow">
-      <title>Objaśnienie kryterium sukcesu 2.4.12: Fokus niezakryty (ulepszony) | WAI | W3C</title>
-      <link rel="stylesheet" href="./WCAG22-2412_files/style.css">
-      <link rel="stylesheet" href="./WCAG22-2412_files/base.css">
+      <title>Objaśnienie kryterium sukcesu 2.5.7: Przeciąganie | WAI | W3C</title>
+      <link rel="stylesheet" href="./assets/style.css">
+      <link rel="stylesheet" href="./assets/base.css">
    </head>
    <body dir="ltr"><a href="#main" class="button button--skip-link">Przejdź do treści</a><div class="minimal-header-container default-grid">
          <div class="minimal-header" id="site-header">
@@ -19,9 +19,9 @@
             <nav class="nav standalone-resource-pager" aria-label="Objaśnienie dokumentów">
                <ul>
                   <li class="nav__item"><a href="https://www.w3.org/WAI/WCAG22/Understanding/"> Wszystkie dokumenty objaśniające </a></li>
-                  <li class="nav__item"><a href="https://www.w3.org/WAI/WCAG22/Understanding/navigable"> <svg alt="up" focusable="false" aria-hidden="true" class="icon-arrow-up-thin pager-icon" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"></path> </svg> Wytyczne: Nawigowalne</a></li>
-                  <li class="nav__item"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum"> <svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"></path> </svg>Poprzednie KS: Fokus niezakryty (minimalna)</a></li>
-                  <li class="nav__item"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance">Następne KS: Wygląd fokusu | WAI | W3C</li>
+                  <li class="nav__item"><a href="https://www.w3.org/WAI/WCAG22/Understanding/input-modalities"> <svg alt="up" focusable="false" aria-hidden="true" class="icon-arrow-up-thin pager-icon" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"></path> </svg> Wytyczne: Metody obsługi</a></li>
+                  <li class="nav__item"><a href="https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms"> <svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"></path> </svg>Poprzednie KS: Równoległy mechanizm wprowadzania danych</a></li>
+                  <li class="nav__item"><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum">Następne KS: Rozmiar celu (minimalny) <svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path> </svg></a></li>
                </ul>
             </nav>
          </div>
@@ -43,12 +43,15 @@
             </nav>
          </aside>
          <main id="main" class="standalone-resource__main">
-            <h1><span class="standalone-resource__type-of-guidance">Objaśnienie KS 2.4.12:</span>Fokus niezakryty (ulepszony) (poziom AAA)
+            <h1><span class="standalone-resource__type-of-guidance">Objaśnienie KS 2.5.7:</span> Przeciąganie (poziom AA)
             </h1>
             <aside class="box">
                <header class="box-h  box-h-icon">Kryterium sukcesu (KS) </header>
                <div class="box-i">
-                  <p>Gdy <a href="#dfn-user-interface-component">komponent interfejsu użytkownika</a> otrzymuje fokus klawiatury, żadna część komponentu nie jest zasłaniana przez treść utworzoną przez autora.
+                  <p>Wszystkie <a href="#dfn-functionality">funkcjonalności</a>, które wykorzystują do działania <a href="#dfn-dragging-movement">ruch przeciągania</a> można zrealizować za pomocą <a href="#dfn-single-pointer">wskaźnika jednopunktowego</a> bez przeciągania, chyba że przeciąganie jest <a href="#dfn-essential">niezbędne</a> lub funkcjonalność została określona przez <a href="#dfn-user-agent">oprogramowanie użytkownika</a>, a nie autora treści.
+                  </p>
+                  <p class="note">Wymóg ten dotyczy treści internetowych, które odczytują działania wskaźnika (pojedyncze gesty;
+tj. nie dotyczy to działań, które są wymagane do obsługi programu użytkownika lub technologii wspomagającej).
                   </p>
                </div>
             </aside>
@@ -58,38 +61,85 @@
                <dl>
                   
                   <dt>Cel</dt>
-                  <dd>Nie zasłaniaj żadnej części komponentu fokusem.</dd>
+                  <dd>Nie polegaj w działaniach użytkownika na przeciąganiu.</dd>
                   
                   <dt>Co robić</dt>
-                  <dd>Zapewnij, że element fokusem klawiatury będzie w pełni widoczny.</dd>
+                  <dd>W przypadku każdej akcji wymagającej przeciągania zapewnij alternatywę wykorzystującą proste wskazanie.</dd>
                   
                   <dt>Dlaczego to ważne</dt>
-                  <dd>Osoby, które nie potrafią używać myszy, muszą zobaczyć, na czym skupia się klawiatura.</dd>
+                  <dd>Niektórzy ludzie nie mogą używać myszy do przeciągania elementów.</dd>
                   
                </dl>
             </section>
             <section id="intent">
                <h2>Intencja</h2>
-               <p>Celem tego kryterium sukcesu jest zapewnienie, że element, z fokusem klawiatury, będzie zawsze widoczny w rzutni użytkownika. Dla osób widzących, które korzystają z klawiatury (lub urządzenia obsługującego interfejs klawiatury, takiego jak przełącznik lub wprowadzanie głosowe), znajomość bieżącego punktu skupienia ma kluczowe znaczenie. Komponent z fokusem sygnalizuje punkt interakcji na stronie. Jeśli użytkownicy nie mogą zobaczyć elementu z fokusem, mogą nie wiedzieć, jak postępować, lub nawet pomyśleć, że system przestał reagować.
+               <p>Celem tego kryterium sukcesu jest zapewnienie funkcjonalności wykorzystującej ruch przeciągania innego trybu działania, wykorzystującego <a href="#dfn-single-pointer">jeden wskaźnik,</a> bez konieczności posiadania zręczności wymaganej do przeciągania elementów.
                </p>
-               <p>Typowe typy treści, które mogą nakładać się na wybrane elementy, to przyklejone stopki, przyklejone nagłówki i niemodalne okna dialogowe. Gdy użytkownik przechodzi przez stronę, te warstwy treści mogą ukryć element, na którym jest aktywny, wraz ze wskaźnikiem jego skupienia.
+               <p>Niektórzy ludzie nie są w stanie wykonywać precyzyjnych ruchów przeciągania. Inni używają wyspecjalizowanego lub przystosowanego urządzenia wejściowego, takiego jak trackball (kot), mysz nagłowna głowy, system wzroku lub emulator myszy sterowany głosem, co może sprawić, że przeciąganie będzie uciążliwe i podatne na błędy.
                </p>
-               <p>Powiadomienie zaimplementowane jako przyklejona treść, np. baner cookie, nie spełni kryterium sukcesu, jeśli częściowo zakrywa komponent, który ma fokus klawiatury. Sposoby przekazywania obejmują modalność banera, dzięki czemu użytkownik musi odrzucić baner przed nawigacją po stronie, lub użycie <a href="https://www.w3.org/TR/css-scroll-snap/#propdef-scroll-padding">scroll-padding</a>, aby baner nie nakładał się na inną treść. Powiadomienia, które nie wymagają działania użytkownika, mogą również spełniać to kryterium, zamykając się w przypadku utraty fokusu.
+               <p>Gdy interfejs implementuje funkcję wykorzystującą ruchy przeciągania, użytkownicy wykonują cztery odrębne działania:
                </p>
-               <p>Inna forma zasłaniania może wystąpić, gdy kasetony świetlne lub inne półprzezroczyste efekty nakładają się na element, na którym jest ustawiony fokus. Ta forma zasłaniania <em>nie</em> wchodzi w zakres tego kryterium sukcesu. Chociaż zakrycie mniejsze niż 100 procent nie powoduje <q>zasłonięcia</q> komponentu, takie półprzezroczyste nakładanie się może spowodować niespełnienie KS <a href="https://www.w3.org/WAI/WCAG22/understanding/focus-appearance.html">2.4.11 Wygląd fokusu</a>. Jeżeli wskaźnik fokusu może być przykryty przez półprzezroczysty element, wskaźnik fokusu należy ocenić w oparciu o KS 2.4.11. W obu sytuacjach zamierzeniem jest, aby komponent z fokusem nigdy nie był zasłonięty do tego stopnia, że ​​użytkownik nie będzie w stanie określić, który element ma  fokus.
+               <ol>
+                  
+                  <li>dotknij lub kliknij, aby ustalić punkt początkowy</li>
+                  
+                  <li>naciśnij i przytrzymaj ten punkt kontaktu podczas...</li>
+                  
+                  <li>wykonaj zmianę położenia wskaźnika, przed...</li>
+                  
+                  <li>zwolnij wskaźnik w punkcie końcowym.</li>
+                  
+               </ol>
+               <p>Nie wszyscy użytkownicy potrafią dokładnie nacisnąć i przytrzymać ten punkt kontaktu, jednocześnie zmieniając położenie wskaźnika. Należy zapewnić alternatywną metodę, aby użytkownicy z niepełnosprawnością ruchową korzystający ze wskaźnika (myszy, pióra lub kontaktu dotykowego) mogli korzystać z tej funkcjonalności.
                </p>
+               <p>Wymaganie to jest odrębne od dostępności klawiatury, ponieważ osoby korzystające z urządzenia z ekranem dotykowym nie mogą korzystać z klawiatury fizycznej. Interakcje specyficzne dla klawiatury, takie jak klawisze tabulacji lub klawisze strzałek, mogą nie być możliwe w przypadku napotkania kontrolki „przeciągnij i upuść”. Należy jednak pamiętać, że wprowadzenie tekstu może być akceptowalną alternatywą dla przeciągania z jednym wskaźnikiem. Na przykład wprowadzenie danych obok suwaka może pozwolić każdemu użytkownikowi na wprowadzenie dokładnej wartości suwaka. W takiej sytuacji klawiatura ekranowa wyświetlana użytkownikom dotykowym umożliwia wprowadzenie wartości alfanumerycznej za pomocą jednego wskaźnika.
+               </p>
+               <p>Kryterium to nie dotyczy przewijania włączonego przez program użytkownika. Przewijanie strony nie wchodzi w zakres tego zakresu, podobnie jak użycie techniki takiej jak <code>przepełnienie</code> <abbr title="w kaskadowych arkuszach stylów,">CSS</abbr> aby umożliwić przewijanie sekcji treści.
+               </p>
+               <section id="relationship-to-other-requirements">
+                  
+                  
+                  <h3>Związek z innymi wymaganiami</h3>
+                  
+                  
+                  <p>Kryteria sukcesu 2.1.1 Klawiatura i 2.1.3 Klawiatura (bez wyjątku) wymagają, aby funkcje przeciągania były dostępne za pomocą klawiatury. Jednakże osiągnięcie równoważności klawiatury dla operacji przeciągania nie spełnia automatycznie tego kryterium sukcesu. Możliwe jest utworzenie interfejsu obsługującego przeciąganie i sterowanie za pomocą klawiatury, który nie działa przy użyciu samych kliknięć lub dotknięć. Chociaż można stworzyć wiele projektów alternatywnych rozwiązań przeciągania, które uwzględniają zarówno dostępność klawiatury, jak i obsługę za pomocą pojedynczego wskaźnika, te dwa wymagania należy oceniać niezależnie.
+                  </p>
+                  
+                  
+                  <p>To kryterium sukcesu dotyczy ruchów przeciągania, a nie gestów wskaźnika, które są omówione w <a href="https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures">Kryterium sukcesu 2.5.1 Gesty dotykowe</a>. Gesty dotykowe (wskaźnika???) obejmują gesty kierunkowe oparte na ścieżce oraz gesty wielopunktowe. Natomiast w przypadku ruchów przeciągania liczy się tylko punkt początkowy i końcowy ruchu, a nie rzeczywista ścieżka.
+                  </p>
+                  
+                  
+                  <p>Dodatkowymi przykładami są prostokąty zaznaczenia, które ustawiają pierwszą współrzędną prostokąta x/y w pozycji wskaźnika poprzez zdarzenie przesunięcia wskaźnika w dół, a drugą współrzędną x/y po ruchu przeciągania w następnym zdarzeniu w górę. Podobnym przykładem jest linia łącząca dwa różne elementy na ekranie, jak w teście alokacyjnym, w którym użytkownicy muszą narysować linię między pytaniami i odpowiadającymi im odpowiedziami. W takich przypadkach ruch przeciągania wymaga alternatywnego sposobu wykonania tego samego działania, który nie opiera się na ruchu przeciągania. Na przykład dwie oddzielne akcje pojedynczego dotknięcia lub kliknięcia mogą zdefiniować współrzędne prostokąta lub punkty początkowy i końcowy linii łączącej.
+                  </p>
+                  
+                  
+               </section>
+               <section id="alternatives-for-dragging-movements-on-the-same-page">
+                  
+                  <h3>Alternatywy dla przeciągania ruchów na tej samej stronie</h3>
+                  
+                  
+                  <p>Tam, gdzie funkcjonalność może być wykonana poprzez ruchy przeciągania i istnieje równoważna opcja umożliwiająca dostęp za pomocą jednego wskaźnika bez przeciągania, to kryterium sukcesu zostaje spełnione. Nie musi to być ten sam komponent, o ile funkcjonalność jest równoważna. Przykładem jest koło kolorów, w którym kolor można zmienić, przeciągając wskaźnik. Ponadto pola tekstowe do numerycznego wprowadzania wartości kolorów umożliwiają definicję koloru bez konieczności przeciągania. (Należy pamiętać, że wprowadzanie tekstu jest uważane za niezależne od urządzenia; chociaż celem jest wprowadzanie znaków, wprowadzanie tekstu może odbywać się za pomocą głosu, wskaźnika lub klawiatury).
+                  </p> 
+                  
+                  
+               </section>
+               <section id="distinguishing-dragging-movements-from-path-based-pointer-gestures">
+                  
+                  <h3>Rozróżnianie ruchów przeciągania od gestów wskaźnika opartych na ścieżce</h3>
+                  
+                  
+                  <p>Ruchy przeciągania objęte tym kryterium sukcesu to interakcje wskaźników, w przypadku których liczy się tylko punkt początkowy i końcowy. Gdy wskaźnik nawiąże kontakt z celem, kierunek ruchu przeciągania nie jest uwzględniany w interakcji, dopóki wskaźnik nie odłączy się od celu. Ponieważ ruch przeciągania nie ma punktu pośredniego, ruch przeciągania może przebiegać w dowolnym kierunku. Gesty oparte na ścieżce są omówione w Kryterium sukcesu 2.5.1 Gesty dotykowe. Aby uzyskać więcej informacji, zobacz <a href="https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">Objaśnienie kryterium sukcesu 2.5.1 Gesty dotykowe</a></p> 
+                  
+                  
+               </section>
             </section>
             <section id="benefits">
                <h2>Korzyści</h2>
                <ul>
                   
-                  <li>Widzący użytkownicy, którzy do obsługi strony korzystają z interfejsu klawiatury, będą mogli zobaczyć komponent, na którym skupiona jest uwaga klawiatury. Do takich użytkowników należą ci, którzy korzystają z urządzeń korzystających z interfejsu klawiatury, w tym wprowadzania mowy,urządzeń typu „dmuchnij/wciągnij” (sip-and-puff), klawiatur ekranowych, oprogramowania skanującego oraz różnych technologii wspomagających i alternatywnych klawiatur.
-                  </li>
-                  
-                  <li>Osoby z ograniczonym lub słabym wzrokiem, które korzystają z urządzenia wskazującego (do orientacji rzutni i zmiany położenia), korzystają z wyraźnie widocznego wskazania bieżącego punktu interakcji z klawiaturą, szczególnie tam, gdzie powiększenie zmniejsza ogólną użyteczną część treści.
-                  </li>
-                  
-                  <li>Osoby z ograniczeniami uwagi, ograniczeniami pamięci krótkotrwałej lub ograniczeniami w procesach wykonawczych odnoszą korzyści, ponieważ mogą łatwiej odkryć, gdzie znajduje się fokus.
+                  <li>Użytkownicy, którzy mają trudności z wykonywaniem ruchów przeciągania, mogą nadal obsługiwać interfejs z interfejsem wskaźnika.
                   </li>
                   
                </ul>
@@ -98,26 +148,38 @@
                <h2>Przykłady</h2>
                <ul>
                   
-                  <li>Strona ma przyklejoną stopkę (przymocowaną u dołu rzutni). Podczas przewijania strony w dół, wybrany element nie jest wcale ukryty w stopce, ponieważ treść w rzutni przewija się w górę, aby zawsze wyświetlać element z fokusem klawiatury i przy użyciu <a href="https://www.w3.org/TR/css-scroll-snap/#propdef-scroll-padding" rel="nofollow">dopełnienia przewijania</a>.
+                  <li>Mapa umożliwia użytkownikom przeciąganie widoku mapy, a mapa posiada przyciski w górę/w dół/w lewo/w prawo do przesuwania widoku.
                   </li>
                   
-                  <li>Na stronie znajduje się duże (o szerokości 30%) okno dialogowe zatwierdzania plików cookie. Okno dialogowe ma charakter modalny i uniemożliwia dostęp do innych elementów sterujących na stronie do czasu jego zamknięcia. Fokus nie jest zasłonięty, ponieważ okno dialogowe zatwierdzania plików cookie (w tym wskaźnik fokusu) pozostaje na ekranie do czasu dokonania wyboru i przesłania.
+                  <li>Sortowalna lista elementów może, po dotknięciu lub kliknięciu elementu listy, udostępnić sąsiadujące elementy sterujące umożliwiające przesuwanie elementu w górę lub w dół na liście poprzez proste dotknięcie lub kliknięcie tych elementów sterujących.
                   </li>
                   
-                  <li>Powiadomienie jest zaimplementowane jako przyklejony nagłówek, a fokus klawiatury jest przenoszony na powiadomienie. Powiadomienie znika, gdy traci fokus i nie zasłania żadnych innych elementów sterujących (w tym wskaźnika fokusu widocznego przed powiadomieniem).
+                  <li>Tablica zadań, która umożliwia użytkownikom przeciąganie i upuszczanie elementów pomiędzy kolumnami, udostępnia również dodatkowe wyskakujące menu po dotknięciu lub kliknięciu elementów w celu przeniesienia wybranego elementu do innej kolumny poprzez dotknięcie lub kliknięcie pozycji menu wyskakującego.
+                  </li>
+                  
+                  <li>Widżet sterowania promieniowego (koło kolorów), w którym wartość można ustawić poprzez przeciągnięcie znacznika aktualnie wybranego koloru w inne miejsce, umożliwia także wybranie innej wartości koloru poprzez dotknięcie lub kliknięcie innego miejsca na kole kolorów.
+                  </li>
+                  
+                  <li>Widżet liniowego sterowania suwakiem, w którym wartość można ustawić poprzez przeciągnięcie wskaźnika wizualnego (kciuka) pokazującego aktualną wartość, umożliwia dotknięcie lub kliknięcie dowolnego punktu na ścieżce suwaka w celu zmiany wartości i ustawienia kciuka w tej pozycji. 
+                  </li>  
+                  
+                  <li>Widżet, za pomocą którego możesz przeciągnąć prezent dla jednej osoby na zdjęciu grupy osób, posiada również alternatywę menu, w której użytkownicy mogą wybrać z menu osobę, która ma otrzymać prezent.
                   </li>
                   
                </ul>
             </section>
             <section id="techniques">
                <h2>Techniki</h2>
-               <p>Każdy numerowany element w tej sekcji reprezentuje technikę lub kombinację technik, które Grupa Robocza WCAG uważa za wystarczające do spełnienia tego kryterium sukcesu. Jednakże nie jest konieczne stosowanie tych konkretnych technik. Aby uzyskać informacje na temat stosowania innych technik, zobacz <a href="https://www.w3.org/WAI/WCAG22/Understanding/understanding-techniques">Objaśnienie technik dla kryteriów sukcesu WCAG</a>, szczególnie w sekcji „Inne techniki”.
+               <p>Każdy numerowany element w tej sekcji reprezentuje technikę lub kombinację technik, które Grupa Robocza WCAG uważa za wystarczające do spełnienia tego Kryterium sukcesu. Jednakże nie jest konieczne stosowanie tych konkretnych technik. Aby uzyskać informacje na temat stosowania innych technik, zobacz <a href="https://www.w3.org/WAI/WCAG22/Understanding/understanding-techniques">Objaśnienie technik dla kryteriów sukcesu WCAG</a>, szczególnie w sekcji „Inne techniki”.
                </p>
                <section id="sufficient">
                   <h3>Wystarczające techniki</h3>
                   <ol>
                      
-                     <li> <a href="https://www.w3.org/WAI/WCAG22/Techniques/css/C43">C43: Używanie właściwości CSS scroll-padding w celu odsłonięcia treści</a></li>
+                     <li>
+                        <a class="general" href="https://www.w3.org/WAI/WCAG22/Techniques/general/G219">G219: Zapewnienie istnienia alternatywy dla ruchów przeciągania, które działają na treści</a>
+                        
+                     </li>
                      
                   </ol>
                </section>
@@ -127,10 +189,9 @@
                   </p>
                   <ul>
                      
-                     <li>Interakcja, która powoduje wyświetlenie treści nad komponentem z fokusem klawiatury, wizualnie zakrywając część wskaźnika fokusu. Takie zachowanie można spotkać w przypadku materiałów reklamowych lub promocyjnych, których celem jest dostarczenie większej ilości informacji o produkcie, gdy użytkownik porusza się po katalogu.
-                     </li>
-                     
-                     <li>Strona ma przyklejoną stopkę (przymocowaną u dołu rzutni). Podczas przewijania strony w dół zaznaczony element jest częściowo ukryty w stopce, ponieważ treść w widocznym obszarze przewija się bez wystarczającego <a href="https://www.w3.org/TR/css-scroll-snap/#propdef-scroll-padding" rel="nofollow">scroll-padding</a>.
+                     <li>								         
+                        <a class="failure" href="https://www.w3.org/WAI/WCAG22/Techniques/failures/F108">F108: Niespełnienie kryterium sukcesu 2.5.7 Ruchy przeciągania z powodu braku metody pojedynczego wskaźnika umożliwiającej użytkownikowi obsługę funkcjonalności, która nie wymaga ruchu przeciągania</a>						       
+                        
                      </li>
                      
                   </ul>
@@ -141,19 +202,19 @@
                   <summary>
                      <h2>Kluczowe terminy</h2>
                   </summary>
-                  <dt id="dfn-user-interface-component">komponent interfejsu użytkownika</dt>
+                  <dt id="dfn-assistive-technology">technologia wspomagająca</dt>
                   <dd>
                      <definition xmlns="">
                         
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml">część treści internetowej postrzegana przez użytkownika jako pojedyncza kontrolka dla określonej funkcji
+                        <p xmlns="http://www.w3.org/1999/xhtml">sprzęt i oprogramowanie, które działa jako <a href="#dfn-user-agent">program użytkownika</a>lub współdziała ze standardowymi programami użytkownika, aby zapewnić niezbędne osobom z niepełnosprawnościami funkcjonalności, wykraczające poza te oferowane przez standardowe programy użytkownika
                            
                         </p>
                         
                         
                         <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                            <div role="heading" class="note-title marker" aria-level="2">Uwaga</div>
-                           <p>Wiele komponentów interfejsu użytkownika może być implementowanych w postaci pojedynczego elementu.  „Komponenty” nie są tu związane z konkretną techniką programistyczną, a raczej z tym, co użytkownik odbiera jako pojedynczą kontrolkę.
+                           <p>Funkcjonalności zapewniane przez technologie wspomagające obejmują alternatywny sposób prezentacji treści (np. mowa syntetyczna lub powiększenie obrazu), alternatywne sposoby wprowadzania danych (np. za pomocą głosu), dodatkowe mechanizmy nawigacji i orientacji oraz transformacji treści (np. w celu uczynienia tabel bardziej dostępnymi).
                               
                            </p>
                         </div>
@@ -161,7 +222,7 @@
                         
                         <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                            <div role="heading" class="note-title marker" aria-level="2">Uwaga</div>
-                           <p>Do komponentów interfejsu użytkownika należą elementy formularzy i linków, jak również komponenty generowane przez skrypty.
+                           <p>Technologie wspomagające często komunikują się ze standardowymi programami użytkownika za pośrednictwem specjalnych API.
                               
                            </p>
                         </div>
@@ -169,7 +230,7 @@
                         
                         <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                            <div role="heading" class="note-title marker" aria-level="2">Uwaga</div>
-                           <p>To, co rozumie się tutaj pod pojęciem „komponent” lub „składnik interfejsu użytkownika”, jest czasami nazywane także „elementem interfejsu użytkownika”.
+                           <p>Rozróżnienie pomiędzy standardowymi programami użytkownika a technologiami wspomagającymi nie jest oczywiste. Wiele programów użytkownika głównego nurtu posiada różne rozwiązania wspomagające osoby z niepełnosprawnościami.  Podstawowa różnica pomiędzy nimi polega na tym, że programy użytkownika głównego nurtu są skierowane do szerokiego i zróżnicowanego grona odbiorców, zarówno z niepełnosprawnościami, jak i bez niepełnosprawności.  Natomiast technologie wspomagające skierowane są do wąsko zdefiniowanych populacji użytkowników z określonymi rodzajami niepełnosprawności. Pomoc zapewniana przez technologię wspomagającą jest bardziej wyspecjalizowana i dostosowana do potrzeb na odbiorcy z konkretnymi potrzebami. Standardowe programy użytkownika mogą dostarczać technologiom wspomagającym niezbędnych funkcjonalności, takich jak pobieranie treści internetowych z obiektów programowych lub odwzorowanie kodu do postaci przyjaźniejszej dla tych technologii.
                               
                            </p>
                         </div>
@@ -177,7 +238,163 @@
                         
                         <aside xmlns="http://www.w3.org/1999/xhtml" class="example">
                            
-                           <p>Aplet posiada „kontrolkę” pozwalającą na przesuwanie treści według wierszy lub stron albo na swobodny dostęp.  Każdy aplet ma własną nazwę i może być używany niezależnie, jak również może być traktowany jak komponent interfejsu użytkownika.
+                           <p>Technologie wspomagające ważne w kontekście tego dokumentu to między innymi:
+                              
+                           </p>
+                           
+                           
+                           <ul>
+                              
+                              
+                              <li>lupy ekranowe i inne programy wspomagające czytanie wzrokowe, używane przez osoby ze wzrokowymi, percepcyjnymi i innymi niepełnosprawnościami związanymi z korzystaniem z druku, które  pozwalają na zmianę czcionek, rozmiaru, rozmieszczenia, koloru, synchronizujące tekst z głosem itp., w celu poprawienia czytelności wyświetlanego tekstu i obrazów;
+                                 
+                              </li>
+                              
+                              
+                              <li>czytniki ekranu, używane przez osoby niewidome do odczytu treści tekstowych za pomocą mowy syntetycznej lub brajla;
+                                 
+                              </li>
+                              
+                              
+                              <li>programy przetwarzające tekst na mowę, używane przez niektóre osoby z trudnościami poznawczymi, językowymi i trudnościami w uczeniu się w celu przekształcenia tekstu w mowę syntetyczną
+                                 
+                              </li>
+                              
+                              
+                              <li>oprogramowanie do rozpoznawania mowy, z którego mogą korzystać osoby z pewną niepełnosprawnością fizyczną;</li>
+                              
+                              
+                              <li>alternatywne klawiatury, używane przez osoby z niektórymi niepełnosprawnościami fizycznymi, które symulują standardową klawiaturę (w tym klawiatury specjalne wyposażone we wskaźniki nagłowne, przełączniki, urządzenia dmuchnij/wciągnij (sip-and-puff) i inne specjalne urządzenia do wprowadzania danych);
+                                 
+                              </li>
+                              
+                              
+                              <li>alternatywne urządzenia wskazujące, używane przez osoby z niektórymi rodzajami niepełnosprawności fizycznych w celu symulowania kursora myszy i i aktywacji przycisków.
+                                 
+                              </li>
+                              
+                              
+                           </ul>
+                           
+                        </aside>
+                        
+                     </definition>
+                  </dd>
+                  <dt id="dfn-down-event">gdy naciskane</dt>
+                  <dd>
+                     <definition xmlns="">
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml">zdarzenie platformowe, które następuje potem, gdy bodziec wyzwalający wskaźnik naciska punkt interaktywny</p>
+                        	        
+                        <p xmlns="http://www.w3.org/1999/xhtml">Zdarzenie down-down może mieć na różnych platformach różne nazwy, np. „touchstart” lub „mousedown”.
+                        </p>
+                        
+                     </definition>
+                  </dd>
+                  <dt id="dfn-dragging-movement">ruch przeciągający</dt>
+                  <dd>
+                     <definition xmlns="">
+                        	        
+                        					
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml">operacja, podczas której wskaźnik styka się z elementem podczas <a href="#dfn-down-event">naciskania</a>, a element (lub reprezentacja jego położenia) podąża za wskaźnikiem aż do <a href="#dfn-up-event">zwolnienia nacisku</a> 
+                           
+                        </p>
+                        
+                        
+                        <div xmlns="http://www.w3.org/1999/xhtml" class="note">
+                           <div role="heading" class="note-title marker" aria-level="2">Uwaga</div>
+                           <p>Przykładami elementów przeciąganych są elementy list, elementy tekstowe i obrazy.</p>
+                        </div>
+                        
+                     </definition>
+                  </dd>
+                  <dt id="dfn-essential">istotny</dt>
+                  <dd>
+                     <definition xmlns="">
+                        					
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml"> jeżeli taki element zostanie usunięty, może to całkowicie zmienić informację lub funkcjonalność treści <strong>a</strong>informacja i funkcjonalność nie mogą zostać osiągnięte w inny sposób, zapewniający zgodność
+                           
+                        </p>
+                        				
+                        
+                     </definition>
+                  </dd>
+                  <dt id="dfn-functionality">funkcjonalność</dt>
+                  <dd>
+                     <definition xmlns="">
+                        
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml">
+                           <a href="#dfn-process">procesy</a> i efekty osiągalne w wyniku działań użytkownika
+                           
+                        </p>
+                        
+                        
+                     </definition>
+                  </dd>
+                  <dt id="dfn-process">procedura</dt>
+                  <dd>
+                     <definition xmlns="">
+                        
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml">seria czynności użytkownika, z których  każda jest niezbędna do zakończenia działania</p>
+                        
+                        
+                        <aside xmlns="http://www.w3.org/1999/xhtml" class="example">
+                           
+                           <p>Zakończona sukcesem procedura korzystania ze stron sklepu internetowego wymaga od użytkownika obejrzenia alternatywnych produktów, cen i ofert, wybrania produktów, złożenia zamówienia, ustalenia warunków dostawy oraz podania informacji o wysyłce i płatności.
+                              
+                           </p>
+                           
+                        </aside>
+                        
+                        
+                        <aside xmlns="http://www.w3.org/1999/xhtml" class="example">
+                           
+                           <p>Strona rejestracji konta wymaga pomyślnego przejścia <a href="https://www.w3.org/TR/turingtest/">testu Turinga</a>, a następnie wypełnienia formularza rejestracyjnego.
+                              
+                           </p>
+                           
+                        </aside>
+                        
+                        
+                     </definition>
+                  </dd>
+                  <dt id="dfn-single-pointer">dotyk jednopunktowy</dt>
+                  <dd>
+                     <definition xmlns="">
+                        	
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml">wprowadzanie danych dotykiem (wskaźnikiem, kursorem???), które działa z jednym punktem kontaktu z ekranem, w tym pojedyncze stuknięcia i kliknięcia, podwójne stuknięcia i kliknięcia, długie naciśnięcia i gesty oparte na ścieżce
+                        </p>
+                        				
+                        
+                     </definition>
+                  </dd>
+                  <dt id="dfn-up-event">zwolnienie nacisku</dt>
+                  <dd>
+                     <definition xmlns="">
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml">zdarzenie platformowe, które następuje potem, gdy bodziec wyzwalający wskaźnik zwalnia „naciśnięty” wcześniej punkt interaktywny</p>
+                        	        
+                        <p xmlns="http://www.w3.org/1999/xhtml">Zwolnienie nacisku może mieć różne nazwy na różnych platformach, np. „touchend” lub „mouseup”.
+                        </p>
+                        
+                     </definition>
+                  </dd>
+                  <dt id="dfn-user-agent">program użytkownika</dt>
+                  <dd>
+                     <definition xmlns="">
+                        
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml">dowolne oprogramowanie, które pobiera i prezentuje użytkownikom  treści internetowe</p>
+                        
+                        
+                        <aside xmlns="http://www.w3.org/1999/xhtml" class="example">
+                           
+                           <p>Przeglądarki internetowe, odtwarzacze multimedialne, wtyczki i inne programy - w tym <a href="#dfn-assistive-technology">technologie wspomagające</a> - które pomagają w wyszukiwaniu, renderowaniu i interakcji z treściami internetowymi.
                               
                            </p>
                            
@@ -196,7 +413,7 @@
             <div class="box-i">
                <p>Podziel się swoimi pomysłami, sugestiami lub komentarzami za pośrednictwem poczty elektronicznej na publicznie zarchiwizowanej liście <a href="mailto:group-ag-chairs@w3.org?subject=Techniques">group-ag-chairs@w3.org</a> lub za pośrednictwem GitHub
                </p>
-               <div class="button-group"><a href="mailto:group-ag-chairs@w3.org?subject=WCAG%20documents&amp;body=[put%20comment%20here...]" class="button"><span>E-mail</span></a><a href="https://github.com/w3c/wcag/issues/" class="button"><span>Rozwidlanie i edycja na GitHub</span></a><a href="https://github.com/w3c/wcag/issues/new" class="button"><span>Nowe zgłoszenie na GitHub</span></a></div>
+               <div class="button-group">Wyślij wiadomość <a href="mailto:group-ag-chairs@w3.org?subject=WCAG%20documents&amp;body=[put%20comment%20here...]" class="button"><span>e-mail</span></a><a href="https://github.com/w3c/wcag/issues/" class="button"><span>i edytuj w GitHub</span></a><a href="https://github.com/w3c/wcag/issues/new" class="button"><span>Nowe zgłoszenie na GitHub</span></a></div>
             </div>
          </aside>
       </div>
@@ -250,12 +467,13 @@
             </ul>
          </div>
       </footer>
-      <link rel="stylesheet" href="./WCAG22-2412_files/a11y-light.css">
-	  <script src="./WCAG22-2412_files/highlight.min.js"></script><script>
+      <link rel="stylesheet" href="./assets/a11y-light.css">
+
+<script src="./assets/highlight.min.js"></script><script>
       hljs.configure({
         cssSelector: 'pre'
       });
       hljs.highlightAll();
 			var translationStrings = {}; /* fix WAI JS */
-		</script><script src="./WCAG22-2412_files/main.js"></script>
+		</script><script src="./assets/main.js"></script>
 		</body></html>
