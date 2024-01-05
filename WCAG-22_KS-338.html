@@ -50,7 +50,7 @@
             <aside class="box">
                <header class="box-h  box-h-icon">Kryterium sukcesu (KS) </header>
                <div class="box-i">
-                  <p><a href="#dfn-cognitive-function-test">Test funkcji poznawczych</a> (taki jak zapamiętywanie hasła lub rozwiązywanie łamigłówki) nie jest wymagany na żadnym etapie <a href="#dfn-process">procedury</a> uwierzytelniania, chyba że etap ten zapewnia co najmniej jedną z poniższych funkcji:
+                  <p><a href="#dfn-cognitive-function-test">Test funkcji poznawczych</a> (taki jak zapamiętywanie hasła lub rozwiązywanie łamigłówki) nie jest wymagany na żadnym etapie <a href="#dfn-process">procedury</a> uwierzytelniania, chyba że etap ten zapewnia co najmniej jedną z poniższych:
                   </p>
                   <dl>
                      
@@ -79,7 +79,7 @@
                      
                      <ol>
                         
-                        <li>obsługa wprowadzania haseł przez menedżery haseł w celu zmniejszenia zapotrzebowania na pamięć oraz</li>
+                        <li>obsługa wprowadzania haseł przez menedżery haseł w celu ograniczenia konieczności zapamiętywania oraz</li>
                         
                         <li>funkcje kopiuj i wklej, aby zmniejszyć obciążenie poznawcze związane z ponownym wpisywaniem.</li>
                         
@@ -109,7 +109,7 @@
                <h2>Intencja</h2>
                <p>Celem tego kryterium sukcesu jest zapewnienie dostępnej, łatwej w użyciu i bezpiecznej metody logowania. Większość witryn internetowych korzysta z nazw użytkowników i haseł do logowania. Zapamiętanie lub przepisanie nazwy użytkownika, hasła lub jednorazowego kodu weryfikacyjnego stanowi bardzo duże lub niemożliwe obciążenie dla osób z pewnymi problemami poznawczymi.
                </p>
-               <p>Chociaż strony internetowe mogą wykorzystywać rozpoznawanie obiektów lub treści nietekstowych dostarczonych przez użytkownika w celu spełnienia tego kryterium sukcesu, takie techniki nie wspierają w pełni społeczności dostępności poznawczej i należy ich unikać, jeśli to możliwe. Zapoznaj się z <a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced">Dostępne uwierzytelnianie (wzmocnione)</a>, aby uzyskać wskazówki dotyczące większej integracji i dostępności.
+               <p>Chociaż strony internetowe mogą wykorzystywać rozpoznawanie obiektów lub treści nietekstowych dostarczonych przez użytkownika w celu spełnienia tego kryterium sukcesu, takie techniki nie wspierają w pełni społeczności osób z niepełnosprawnościami poznawczymi i należy ich unikać, jeśli to możliwe. Zapoznaj się z <a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced">Dostępne uwierzytelnianie (wzmocnione)</a>, aby uzyskać wskazówki dotyczące większej integracji i dostępności.
                </p>
                <section id="cog-fun-tests">
                   
@@ -137,7 +137,7 @@
                      
                      <li>wiedzę (np. hasło, litery w haśle lub zapamiętana ścieżka przeciągnięcia);</li>
                      
-                     <li>(np. kod weryfikacyjny wygenerowany lub odebrany na urządzeniu lub zeskanowanie kodu QR na urządzeniu zewnętrznym);
+                     <li>(np. posiadanie kodu weryfikacyjnego wygenerowanego lub odebranego na urządzeniu lub zeskanowanie kodu QR na urządzeniu zewnętrznym);
                      </li>
                      
                      <li>dane biometryczne (np. skanowanie odcisków palców, rozpoznawanie twarzy lub dynamika naciśnięć klawiszy).</li>
@@ -169,10 +169,10 @@
                   
                   <h3>Systemy uwierzytelniania dwuskładnikowego (kody weryfikacyjne)</h3>
                   
-                  <p>Oprócz nazw użytkowników i haseł, niektóre witryny mogą korzystać z uwierzytelniania dwuskładnikowego, prosząc użytkownika o wprowadzenie kodu weryfikacyjnego (zwanego również kodem dostępu lub hasłem jednorazowym). Usługa wymagająca <em>ręcznego</em> przepisania kodu weryfikacyjnego nie jest zgodna z przepisami. Podobnie jak w przypadku nazw użytkowników i haseł, użytkownik musi mieć możliwość przynajmniej wklejenia kodu (np. z samodzielnego zewnętrznego menedżera haseł, aplikacji do obsługi wiadomości tekstowych lub klucza bezpieczeństwa opartego na oprogramowaniu) lub umożliwienia programom użytkownika automatycznego wypełniania pól.
+                  <p>Oprócz nazw użytkowników i haseł, niektóre witryny mogą korzystać z uwierzytelniania dwuskładnikowego, prosząc użytkownika o wprowadzenie kodu weryfikacyjnego (zwanego również kodem dostępu lub hasłem jednorazowym). Usługa wymagająca <em>ręcznego</em> przepisania kodu weryfikacyjnego nie zapewnia zgodności. Podobnie jak w przypadku nazw użytkowników i haseł, użytkownik musi mieć możliwość przynajmniej wklejenia kodu (np. z samodzielnego zewnętrznego menedżera haseł, aplikacji do obsługi wiadomości tekstowych lub klucza bezpieczeństwa opartego na oprogramowaniu) lub umożliwienia programom użytkownika automatycznego wypełniania pól.
                   </p>
                   
-                  <p>Istnieją scenariusze, w których kod weryfikacyjny musi zostać odebrany lub wygenerowany na urządzeniu dodatkowym. Na przykład uwierzytelnianie w przeglądarce internetowej na laptopie wymaga kodu weryfikacyjnego, który jest wysyłany jako wiadomość tekstowa SMS na telefon komórkowy. Jednak w większości przypadków możliwe jest wysłanie kodu bezpośrednio na urządzenie główne, gdzie można go skopiować i wkleić (na przykład kopiując kod na urządzeniu dodatkowym i wysyłając go e-mailem na urządzenie główne lub korzystając ze współdzielonego schowka między urządzeniami, w którym kopiowanie treści na urządzeniu dodatkowym udostępnia ją do wklejenia na urządzeniu głównym). Ocena, czy kod można płynnie przenieść z urządzenia dodatkowego na urządzenie podstawowe, wykracza <em>poza zakres</em> tego kryterium sukcesu. Do celów oceny treści internetowych, które opierają się na uwierzytelnianiu przy użyciu tego typu systemów urządzeń dodatkowych, zakłada się, że istnieją prawa, które udostępniają kod w schowku użytkownika. Ocena tego kryterium wymaga zatem jedynie sprawdzenia, czy zawartość strony internetowej umożliwia wklejenie zawartości schowka w powiązanym polu wyzwania uwierzytelniania.
+                  <p>Istnieją scenariusze, w których kod weryfikacyjny musi zostać odebrany lub wygenerowany na urządzeniu dodatkowym. Na przykład uwierzytelnianie w przeglądarce internetowej na laptopie wymaga kodu weryfikacyjnego, który jest wysyłany jako wiadomość tekstowa SMS na telefon komórkowy. Jednak w większości przypadków możliwe jest wysłanie kodu bezpośrednio na urządzenie główne, gdzie można go skopiować i wkleić (na przykład kopiując kod na urządzeniu dodatkowym i wysyłając go e-mailem na urządzenie główne lub korzystając ze współdzielonego schowka między urządzeniami, w którym kopiowanie treści na urządzeniu dodatkowym udostępnia ją do wklejenia na urządzeniu głównym). Ocena, czy kod można płynnie przenieść z urządzenia dodatkowego na urządzenie podstawowe, wykracza <em>poza zakres</em> tego kryterium sukcesu. Do celów oceny treści internetowych, które opierają się na uwierzytelnianiu przy użyciu tego typu systemów urządzeń dodatkowych, zakłada się, że zapewniona jest możliwość udostępniają kodu w schowku użytkownika. Ocena tego kryterium wymaga zatem jedynie sprawdzenia, czy zawartość strony internetowej umożliwia wklejenie zawartości schowka w powiązanym polu wyzwania uwierzytelniania.
                   </p>
                   
                   <p>Należy pamiętać, że systemy dwuskładnikowe, które nie opierają się na kodach - w tym sprzętowe urządzenia uwierzytelniające (takie jak YubiKey), aplikacje pomocnicze (na tym samym urządzeniu głównym lub na urządzeniu dodatkowym), które oczekują od użytkownika potwierdzenia, że to rzeczywiście on próbuje się zalogować, oraz metody uwierzytelniania zapewniane przez system operacyjny użytkownika (takie jak Windows Hello lub Touch ID/Face ID w macOS i iOS) - <em>nie</em> są <a href="#">testem funkcji poznawczych</a>.
@@ -209,7 +209,7 @@
                      
                      <li><a href="https://www.ietf.org/archive/id/draft-private-access-tokens-01.html#name-client-geo-location">1.1.2. Geolokalizacja klienta</a></li>
                      
-                     <li><a href="https://www.ietf.org/archive/id/draft-private-access-tokens-01.html#name-private-client-authenticati">1.1.3. Uwierzytelnianie klienta prywatnego</a></li>
+                     <li><a href="https://www.ietf.org/archive/id/draft-private-access-tokens-01.html#name-private-client-authenticati">1.1.3. Uwierzytelnianie metodami zapewniającymi prywatność</a></li>
                      
                   </ul>
                   
@@ -226,7 +226,7 @@
                   </p>
                   
                   
-                  <p>Treści osobiste oparte na tekście nie kwalifikują się do tego wyjątku, ponieważ opierają się na przywoływaniu (a nie rozpoznawaniu) i wpisaniu (a nie wybieraniu elementu). Podczas gdy treści osobiste oparte na obrazach nadal będą stanowić barierę dla niektórych osób, wersje tekstowe stanowią znacznie większą barierę.
+                  <p>Treści osobiste oparte na tekście nie kwalifikują się do tego wyjątku, ponieważ opierają się na przypominniu sobie (a nie rozpoznawaniu) i wpisaniu (a nie wybieraniu elementu). Podczas gdy treści osobiste oparte na obrazach nadal będą stanowić barierę dla niektórych osób, wersje tekstowe stanowią znacznie większą barierę.
                   </p>
                   
                </section>
