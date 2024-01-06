@@ -50,7 +50,7 @@
             <aside class="box">
                <header class="box-h  box-h-icon">Kryterium sukcesu (KS) </header>
                <div class="box-i">
-                  <p><a href="#dfn-cognitive-function-test">Test funkcji poznawczych</a> (taki jak zapamiętywanie hasła lub rozwiązywanie łamigłówki) nie jest wymagany na żadnym etapie <a href="#dfn-process">procesu</a> uwierzytelniania, chyba że etap ten zapewnia co najmniej jedną z poniższych funkcji:
+                  <p><a href="#dfn-cognitive-function-test">Test funkcji poznawczych</a> (taki jak zapamiętywanie hasła lub rozwiązywanie łamigłówki) nie jest wymagany na żadnym etapie <a href="#dfn-process">procesu</a> uwierzytelniania, chyba że etap ten zapewnia co najmniej jedną z poniższych:
                   </p>
                   <dl>
                      
@@ -87,13 +87,13 @@
                <h2>Intencja</h2>
                <p>Celem tego kryterium sukcesu jest zapewnienie dostępnej, łatwej w użyciu i bezpiecznej metody logowania, uzyskiwania dostępu do treści i wykonywania zadań. Kryterium to jest takie samo jak w przypadku <a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication">Dostępnego uwierzytelniania</a>, ale bez wyjątków dla obiektów i treści dostarczanych przez użytkownika.
                </p>
-               <p>Każdy wymagany krok procesu uwierzytelniania:</p>
+               <p>Jakikolwiek wymagany krok procesu uwierzytelniania:</p>
                <ul>
                   
-                  <li>nie może wyświetlać wyboru obrazów, filmów lub klipów audio, w których użytkownicy muszą wybrać obraz, który podali;
+                  <li>nie może wyświetlać do wyboru obrazów, filmów lub klipów audio, w których użytkownicy muszą wybrać obraz, który podali;
                   </li>
                   
-                  <li>nie może wyświetlać wyboru obrazów, w których użytkownicy muszą wybrać obrazy zawierające określony obiekt, taki jak samochód.
+                  <li>nie może wyświetlać do wyboru obrazów, w których użytkownicy muszą wybrać obrazy zawierające określony obiekt, taki jak samochód.
                   </li>
                   
                </ul>
@@ -107,36 +107,38 @@
             </section>
             <section id="examples">
                <h2>Przykłady</h2>
-               <p>Przykłady tego kryterium sukcesu są takie same jak przykłady <a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication.html#examples">dostępnego uwierzytelniania</a>.
+               <p>Przykłady tego kryterium sukcesu są takie same jak przykłady <a href="./WCAG-22_KS-338.html#examples">dostępnego uwierzytelniania</a>.
                </p>
                <ul>
-                  
-                  <li>Strona internetowa wykorzystuje odpowiednio oznaczone pola nazwy użytkownika (lub adresu e-mail) i hasła jako uwierzytelnienie logowania (spełnienie <a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose">kryterium sukcesu 1.3.5 Cel wprowadzania danych</a> i <a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value">kryterium sukcesu 4.1.2: Nazwa, rola, wartość</a>). Przeglądarka użytkownika lub zintegrowane rozszerzenie menedżera haseł innej firmy może zidentyfikować cel wprowadzania danych i automatycznie wypełnić nazwę użytkownika i hasło.
+			   
+                  <li>Strona internetowa wykorzystuje odpowiednio oznaczone pola nazwy użytkownika (lub adresu e-mail) i hasła jako uwierzytelnienie logowania (spełnienie kryterium sukcesu <a href="./WCAG-22_KS-135.html">1.3.5 Określenie pożądanej wartości</a> i kryterium sukcesu <a href="./WCAG-22_KS-412.html">4.1.2: Nazwa, rola, wartość</a>). Przeglądarka użytkownika lub zintegrowane rozszerzenie menedżera haseł innej firmy może określić cel wprowadzania danych i automatycznie wypełnić nazwę użytkownika i hasło.
                   </li>
+				  
                   
                   <li>Strona internetowa nie blokuje funkcji wklejania. Użytkownik może korzystać z zewnętrznego menedżera haseł do przechowywania poświadczeń, kopiowania ich i wklejania bezpośrednio do formularza logowania.
                   </li>
-                  
-                  <li>Strona internetowa używa WebAuthn, aby użytkownik mógł uwierzytelnić się za pomocą swojego urządzenia zamiast nazwy użytkownika/hasła. Urządzenie użytkownika może korzystać z dowolnej dostępnej modalności. Typowe metody stosowane w laptopach i telefonach to skanowanie twarzy, odcisk palca i PIN (osobisty numer identyfikacyjny). Witryna nie wymusza żadnego konkretnego zastosowania, zakłada się, że użytkownik skonfiguruje metodę, która mu odpowiada.
+              
+                  <li>Strona internetowa używa WebAuthn, aby użytkownik mógł uwierzytelnić się za pomocą swojego urządzenia zamiast nazwy użytkownika/hasła. Urządzenie użytkownika może korzystać z dowolnej dostępnej modalności. Typowe metody stosowane w laptopach i telefonach to skanowanie twarzy, odcisk palca i PIN (osobisty numer identyfikacyjny). Witryna nie wymusza żadnego konkretnego sposobu, zakłada się, że użytkownik skonfiguruje metodę, która mu odpowiada.
+                  </li>
+               
+                  <li>Strona internetowa oferuje możliwość logowania się za pomocą zewnętrznego dostawcy przy użyciu metody OAuth.
                   </li>
                   
-                  <li>Witryna internetowa oferuje możliwość logowania się za pomocą zewnętrznego dostawcy przy użyciu metody OAuth.
+                  <li>Strona internetowa, która wymaga uwierzytelniania dwuskładnikowego, umożliwia wiele opcji dla drugiego czynnika, w tym metodę opartą na USB, w której użytkownik po prostu naciska przycisk, aby wprowadzić token czasowy.
                   </li>
-                  
-                  <li>Witryna internetowa, która wymaga uwierzytelniania dwuskładnikowego, umożliwia wiele opcji dla drugiego czynnika, w tym metodę opartą na USB, w której użytkownik po prostu naciska przycisk, aby wprowadzić token czasowy.
-                  </li>
-                  
+              
                   <li>Strona internetowa wymagająca uwierzytelniania dwuskładnikowego wyświetla kod QR, który może zostać zeskanowany przez aplikację na urządzeniu użytkownika w celu potwierdzenia tożsamości.
                   </li>
                   
-                  <li>Witryna internetowa wymagająca uwierzytelniania dwuskładnikowego wysyła powiadomienie na urządzenie użytkownika. Użytkownik musi użyć mechanizmu uwierzytelniania swojego urządzenia (na przykład zdefiniowanego przez użytkownika kodu PIN, odcisku palca, rozpoznawania twarzy), aby potwierdzić tożsamość.
+                  <li>Strona internetowa wymagająca uwierzytelniania dwuskładnikowego wysyła powiadomienie na urządzenie użytkownika. Użytkownik musi użyć mechanizmu uwierzytelniania swojego urządzenia (na przykład zdefiniowanego przez użytkownika kodu PIN, odcisku palca, rozpoznawania twarzy), aby potwierdzić tożsamość.
                   </li>
                   
                </ul>
+
             </section>
             <section id="resources">
                <h2>Powiązane zasoby</h2>
-               <p>Zasoby służą wyłącznie celom informacyjnym, nie sugeruje się ich poparcia.</p>
+               <p>Zasoby służą wyłącznie celom informacyjnym i nie sugerują żadnego ich poparcia.</p>
                <ul>
                   
                   <li><a href="https://www.w3.org/TR/coga-gap-analysis/#table1">Analiza luk w dostępności poznawczej Temat 1: Uwierzytelnianie i bezpieczeństwo</a></li>
@@ -166,7 +168,7 @@
             </section>
             <section id="techniques">
                <h2>Techniki</h2>
-               <p>Każdy numerowany element w tej sekcji przedstawia technikę lub kombinację technik, które Grupa Robocza WCAG uważa za wystarczające do spełnienia tego kryterium sukcesu. Nie jest jednak konieczne stosowanie tych konkretnych technik. Aby uzyskać informacje na temat korzystania z innych technik, zobacz <a href="https://www.w3.org/WAI/WCAG22/Understanding/understanding-techniques">Objaśnienie technik dla kryteriów sukcesu WCAG</a>, w szczególności podrozdział „Inne techniki”.
+               <p>Każdy numerowany element w tej sekcji przedstawia technikę lub kombinację technik, które Grupa Robocza WCAG uważa za wystarczające do spełnienia tego kryterium sukcesu. Nie jest jednak konieczne stosowanie tych konkretnych technik. Aby uzyskać informacje na temat korzystania z innych technik, zobacz <a href="./WCAG-objasnienie-technik.html">Objaśnienie technik dla kryteriów sukcesu WCAG</a>, w szczególności podrozdział „Inne techniki”.
                </p>
                <section id="sufficient">
                   <h3>Techniki wystarczające</h3>
@@ -201,7 +203,7 @@
                </section>
                <section id="failure">
                   <h3>Błędy</h3>
-                  <p>Poniżej wymieniono typowe błędy, które Grupa Robocza WCAG uważa za niespełnienie tego kryterium sukcesu.
+                  <p>Poniżej wymieniono typowe błędy, które Grupa Robocza WCAG uważa za naruszenie tego kryterium sukcesu.
                   </p>
                   <ol>
                      
@@ -218,12 +220,12 @@
                   <summary>
                      <h2>Kluczowe pojęcia</h2>
                   </summary>
-                  <dt id="dfn-assistive-technology">technologia wspomagająca</dt>
+                 <dt id="dfn-assistive-technology">technologia wspomagająca</dt>
                   <dd>
                      <definition xmlns="">
                         
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml">sprzęt i oprogramowanie, które działa jako<a href="#dfn-user-agent">program użytkownika</a> lub współdziała ze standardowymi programami użytkownika, aby zapewnić niezbędne osobom z niepełnosprawnościami funkcjonalności, przekraczające możliwości standardowych programów użytkownika
+                        <p xmlns="http://www.w3.org/1999/xhtml">sprzęt i oprogramowanie, które działa jako<a href="#dfn-user-agent">program użytkownika</a> lub współdziała z popularnymi programami użytkownika, aby zapewnić osobom z niepełnosprawnościami niezbędne funkcjonalności, wykraczające poza te oferowane przez popularne programy użytkownika 
                            
                         </p>
                         
@@ -239,14 +241,14 @@
                         <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                            <div role="heading" class="note-title marker" aria-level="2">Uwaga</div>
                            <p>Technologie wspomagające często przekazują informacje i dane do standardowych aplikacji za pośrednictwem specjalnych API.
-                              
+						   
                            </p>
                         </div>
                         
                         
                         <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                            <div role="heading" class="note-title marker" aria-level="2">Uwaga</div>
-                           <p>Rozróżnienie pomiędzy popularnymi programami użytkownika a technologiami wspomagającymi nie jest oczywiste. Wiele popularnych programów użytkownika posiada różne rozwiązania wspomagające osoby z niepełnosprawnościami.  Główna różnica pomiędzy nimi polega na tym, że popularne programy użytkownika są ukierunkowane na szerokie i zróżnicowane grupy odbiorców, zarówno z niepełnosprawnościami, jak i bez niepełnosprawności. Natomiast technologie wspomagające skierowane są do wąskiego grona użytkowników z określonymi rodzajami niepełnosprawności. Wsparcie świadczone za pomocą technologii wspomagających jest zatem bardziej wyspecjalizowane i nakierowane na odbiorcę z konkretnymi potrzebami. Popularne programy użytkownika mogą udostępniać technologiom wspomagającym niezbędne funkcjonalności, takie jak pobieranie treści internetowych z obiektów programowych lub odwzorowanie kodu do postaci przyjaźniejszej dla tych technologii.
+                           <p>Rozróżnienie pomiędzy popularnymi programami użytkownika a technologiami wspomagającymi nie jest oczywiste. Wiele popularnych programów użytkownika posiada różne rozwiązania wspomagające osoby z niepełnosprawnościami. Główna różnica pomiędzy nimi polega na tym, że popularne programy użytkownika są ukierunkowane na szerokie i zróżnicowane grupy odbiorców, zarówno z niepełnosprawnościami, jak i bez niepełnosprawności. Natomiast technologie wspomagające skierowane są do wąskiej grupy odbiorców z określonymi rodzajami niepełnosprawności. Wsparcie świadczone za pomocą technologii wspomagających jest zatem bardziej wyspecjalizowane i nakierowane na odbiorcę z konkretnymi potrzebami. Popularne programy użytkownika mogą dostarczać technologiom wspomagającym niezbędne funkcjonalności, takie jak pobieranie treści internetowych z obiektów programowych lub odwzorowanie kodu do postaci przyjaźniejszej dla tych technologii.
                               
                            </p>
                         </div>
@@ -262,7 +264,7 @@
                            <ul>
                               
                               
-                              <li>powiększalniki ekranu i inne programy wspomagające czytanie z użyciem wzroku, używane przez osoby ze wzrokowymi, percepcyjnymi i innymi niepełnosprawnościami związanymi z korzystaniem z druku, pozwalające na zmianę czcionki, jej rozmiaru, odstępów, koloru oraz na synchronizację głosu z tekstem itp., w celu poprawienia czytelności wyświetlanego tekstu i obrazów;
+                              <li>powiększalniki ekranu i inne programy wspomagające czytanie wzrokowe, używane przez osoby z niepełnosprawnościami wzroku, percepcyjnymi i innymi związanymi z korzystaniem z druku, pozwalające na zmianę czcionki, jej rozmiaru, odstępów, koloru oraz na synchronizację głosu z tekstem itp., w celu poprawienia czytelności wyświetlanego tekstu i obrazów;
                                  
                               </li>
                               
@@ -272,7 +274,7 @@
                               </li>
                               
                               
-                              <li>programy przetwarzające tekst na mowę syntetyczną, używane przez niektóre osoby z niepełnosprawnościami poznawczymi, językowymi i trudnościami w nauce w celu przekształcenia tekstu na mowę syntetyczną;
+                              <li>oprogramowanie przetwarzające tekst na mowę syntetyczną, używane przez niektóre osoby z niepełnosprawnościami poznawczymi, językowymi i trudnościami w nauce w celu przekształcenia tekstu na mowę syntetyczną;
                                  
                               </li>
                               
@@ -280,7 +282,7 @@
                               <li>oprogramowanie rozpoznające mowę, używane przez niektóre osoby z niepełnosprawnościami fizycznymi;</li>
                               
                               
-                              <li>specjalne klawiatury, używane przez osoby z niektórymi niepełnosprawnościami fizycznymi, które symulują standardową klawiaturę (w tym klawiatury specjalne wyposażone we wskaźniki nagłowne, przełączniki, urządzenia dmuchnij/wciągnij (sip-and-puff ) i inne specjalne urządzenia do wprowadzania danych);
+                              <li>specjalne klawiatury, używane przez osoby z niektórymi niepełnosprawnościami fizycznymi, które symulują standardową klawiaturę (w tym klawiatury specjalne wyposażone we wskaźniki nagłowne, przełączniki, urządzenia dmuchnij/wciągnij (<span lang="en">sip-and-puff</span>) i inne specjalne urządzenia do wprowadzania danych);
                                  
                               </li>
                               
