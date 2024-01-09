@@ -3,10 +3,10 @@ Szanowni Państwo!
 Dziękujemy za dotychczas wykonaną pracę nad tłumaczeniem WCAG 2.2.
 Efekt można zobaczyć pod adresem: https://www.irdpl.pl/objasnienia/
 Znajdą tam Państwo wszystkie objaśnienia tłumaczeń nowych kryteriów sukcesu, nad którymi pracowaliśmy od października, tzn.
-- 2.4.11 Fokus niezakryty (minimum): https://www.irdpl.pl/objasnienia/WCAG-22_KS-247.html
-- 2.4.12 Fokus niezakryty (ulepszony) (poziom AAA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2411.html
-- 2.4.13 Wygląd fokusu (poziom AAA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2412.html
-- 2.5.7 Przeciąganie (poziom AA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2413.html
+- 2.4.11 Fokus niezakryty (minimum): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2411.html
+- 2.4.12 Fokus niezakryty (ulepszony) (poziom AAA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2412.html
+- 2.4.13 Wygląd fokusu (poziom AAA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2413.html
+- 2.5.7 Przeciąganie (poziom AA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-257.html
 - 2.5.8 Rozmiar celu (minimalny) (poziom AA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-258.html
 - 3.2.6 Spójna pomoc (poziom A): https://www.irdpl.pl/objasnienia/WCAG-22_KS-326.html
 - 3.3.7 Ponowne wpisy (poziom A): https://www.irdpl.pl/objasnienia/WCAG-22_KS-337.html
