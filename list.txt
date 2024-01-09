@@ -1,0 +1,48 @@
+Szanowni Państwo!
+
+Dziękujemy za dotychczas wykonaną pracę nad tłumaczeniem WCAG 2.2.
+Efekt można zobaczyć pod adresem: https://www.irdpl.pl/objasnienia/
+Znajdą tam Państwo wszystkie objaśnienia tłumaczeń nowych kryteriów sukcesu, nad którymi pracowaliśmy od października, tzn.
+- 2.4.11 Fokus niezakryty (minimum): https://www.irdpl.pl/objasnienia/WCAG-22_KS-247.html
+- 2.4.12 Fokus niezakryty (ulepszony) (poziom AAA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2411.html
+- 2.4.13 Wygląd fokusu (poziom AAA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2412.html
+- 2.5.7 Przeciąganie (poziom AA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-2413.html
+- 2.5.8 Rozmiar celu (minimalny) (poziom AA): https://www.irdpl.pl/objasnienia/WCAG-22_KS-258.html
+- 3.2.6 Spójna pomoc (poziom A): https://www.irdpl.pl/objasnienia/WCAG-22_KS-326.html
+- 3.3.7 Ponowne wpisy (poziom A): https://www.irdpl.pl/objasnienia/WCAG-22_KS-337.html
+- 3.3.8 Dostępne uwierzytelnianie (minimum): https://www.irdpl.pl/objasnienia/WCAG-22_KS-338.html
+- 3.3.9 Dostępne uwierzytelnianie (ulepszone): https://www.irdpl.pl/objasnienia/WCAG-22_KS-339.html
+- 4.1.1 Poprawność kodu (przestarzałe i usunięte): https://www.irdpl.pl/objasnienia/WCAG-22_KS-411.html
+
+Co zrobiliśmy?
+- Rozpatrzyliśmy wszystkie uwagi, jakie przekazaliście nam Państwo w dokumentach Google
+- Uaktualniliśmy wszystkie wstępnie przetłumaczone dokumenty, w tym:
+  - Uwzględniliśmy zdecydowaną większość uwag i sugestii, jakie sformułowaliście Państwo w dokumentach Google
+  - Uspójniliśmy tłumaczenia, na tyle, na ile to było możliwe;
+  - Wykonaliśmy podstawową korektę merytoryczną, ortograficzną i stylistyczną.
+  - Uaktualniliśmy publikację na Github do najnowszych wersji tłumaczenia.
+- Przygotowaliśmy 2 wersje każdego dokumentu w formacie Word do pobrania ze stron wymienionych powyżej:
+  - jedna wersja: zawiera tylko treść objaśnienia. Można je opatrywać komentarzami.
+  - druga wersja: zawiera, jak poprzednio, tabelę z wersją w języku angielskim, tłumaczeniem na język polski oraz miejscem na komentarze, uwagi, propozycje.  
+
+Co powinniśmy teraz zrobić?
+Choć włożyliśmy wiele pracy, by efekt była jak najlepszy i uzyskaliśmy, według naszej oceny, znaczy postęp w zapewnieniu poprawności i spójności tłumaczenia, to nie znaczy, że tłumaczenie można uznać za satysfakcjonujące. 
+
+Naszym zdaniem, teraz każde objaśnienie wymaga dokładnego przeglądu i rozważenia, akapit za akapitem, czy objaśnienia są poprawne, jasne, zrozumiałe i czy odpowiadają oryginałowi.
+
+Dlatego proponujemy i prosimy:
+A. Opiekunów tłumaczeń  
+1. Poproś kogoś spośród swoich przyjaciół o przeczytanie tłumaczenia, którym się opiekujesz, i skomentowanie wszystkich niejasnych fragmentów (przygotowaliśmy w tym celu kopię objaśnienia w formacie Word).
+2. Zbadaj jeszcze raz dokładnie tłumaczenie, którym się opiekujesz. Rozważ także uwagi zgłoszone przez osobę, którą poprosiłaś/poprosiłeś o komentarz). Wynotuj i zgłoś wszystkie swoje uwagi, propozycje poprawek w dokumencie Word z tabelą porównującą wersję angielską i polską (uwaga: ta wersja jest szersza, bo zawiera także tłumaczenie kluczowych pojęć).
+
+B. Wszystkich członków Zespołu
+1. Zrecenzuj - oprócz tłumaczenia za które odpowiadasz - dwa inne wybrane tlumaczenia. Wynotuj i zgłoś wszystkie swoje uwagi, propozycje poprawek w dokumencie Word z tabelą porównującą wersję angielską i polską. 
+2. Jeśli możesz, uzyskaj opinię/komentarze/uwagi do wybranego tłumaczenia od kogoś ze swoich znajomych.
+
+Planowany tok pracy
+1. Do końca stycznia prosimy przesłać na adres kontakt@irdpl.pl albo audyt@lepszyweb.pl wszystkie uwagi, komentarze, recenzje, propozycje zmian. 
+2. Na podstawie tych zgłoszeń między 1 a 7 lutego uaktualnimy tłumaczenia objaśnień oraz przygotujemy listę problemów do dyskusji.
+3. Między 8 a 15 lutego zwołamy spotkanie Zespołu.
+
+  
+   
